@@ -16,7 +16,6 @@ let btnshow = document.getElementById('addBtn');  //先抓取addBtn並放入到b
 btnshow.addEventListener('click',function (e) {   //對btnshow執行監聽動作，如果有發生click按鈕時，觸發函式
   let liNote =document.getElementsByTagName('li'); //將子節點的長度放入到liNote
   let newtdo = document.getElementById("newTodo").value; //將input內的值放入kk當中
-  let todoslg  = todos.length;  //取todos內的長度值
   //如果Input內不是空值的話，則將KK加入倒todos內
   if (newtdo != "") {
     todos.push(newtdo);
